@@ -1,0 +1,39 @@
+/* Place your CSS below */
+body {font-size: 12px; letter-spacing: 1px; color: #404040;}
+.ui-button, .ui-group {font-weight: 400;}
+.ui-button span {border-bottom: 0px solid currentColor;}
+.ui-pagination li.act a .dot, .ui-pagination li.act a .line {background-color: lightgray;}
+.menu-item a.active {color: #404040;font-weight: 400;}
+header h4, h5 {font-weight: 400; letter-spacing: 2px; font-size:1.1em;}
+.sidebar .ui-button-close:hover {color: lightgray;}
+.sidebar {background: #f4f4f4;}
+.sidebar-left {border-right: 0px dotted rgba(0,0,0,.13);}
+.page-skin-dark {background-color: #000000;}
+.sidebar a:hover  {color: lightgray; }
+small a {border-bottom:none;}
+
+body { -webkit-user-select:none !important;  
+     -webkit-touch-callout:none !important;
+   -moz-user-select:none !important; 
+   -ms-user-select: none !important; 
+   user-select: none !important;
+   touch-callout: none !important; 
+ overflow-x: hidden;}
+
+
+video#bgvideo {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+filter: grayscale(100%);}
